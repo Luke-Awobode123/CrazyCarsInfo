@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-image: url(./Images/Toyota\ Supra.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+}
+
+header .foreword { 
+    text-align: center;
+    color: #13703a;
+    font-size: 5rem;
+    margin-top: 12rem;
+    margin-bottom: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .foreword-1 { 
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav{
+    padding: 2rem;
+}
+
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.logo-image img{
+    aspect-ratio: 1/1;
+    border-radius: 20%;
+    width: 4rem;
+}
+
+.logo-text{
+    font-size: 2rem;
+}
+
+main{
+    background-color: lawngreen;
+    padding-top: 2rem;
+}
+
+/* --------------------------first-------------------------------- */
+
+main .first-section .first-1{
+    background-image: url(./Images/Lamborghini\ Veneno2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+main .first-section .first-1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .first-section .first-2 {
+    padding: 1rem 2rem;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+main .first-section .first-2 .L-TEXT{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 5rem;
+}
+/* ------------------------------second--------------------------- */
+main .second-section .second-1{
+    background-image: url(./Images/LaFerrariAperta.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+main .second-section .second-1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .second-section .second-2 {
+    padding: 1rem 2rem;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+main .second-section .second-2 .F-TEXT{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 4rem;
+}
+/* ------------------------------third---------------------------- */
+main .third-section .third-1{
+    background-image: url(./Images/Bugatti\ Centodieci\ Blue.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+main .third-section .third-1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .third-section .third-2 {
+    padding: 1rem 2rem;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+main .third-section .third-2 .B-TEXT{
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 4rem;
+}
